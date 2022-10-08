@@ -1,0 +1,103 @@
+body {
+  background-color: #EEEEEE !important;
+}
+
+/* All font segoe ui */
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/segoeui.ttf");
+}
+
+@font-face {
+  font-family: "Bungee";
+  src: url("../fonts/Bungee-Regular.ttf");
+}
+
+/* all component border */
+
+* {
+  /* border: 1px solid #000; */
+}
+
+.container-fluid {
+  margin-top: 6px;
+}
+
+.bg-nav {
+  background-color: #ff9914;
+  height: 50px;
+}
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+.circleBase {
+  border-radius: 50%;
+}
+
+
+.circle-1 {
+  width: 20px;
+  height: 20px;
+  background: #ef233c;
+  border: 1px solid #707070;
+}
+
+.circle-2 {
+  width: 20px;
+  height: 20px;
+  background: #ffc300;
+  border: 1px solid #707070;
+}
+
+.circle-3 {
+  width: 20px;
+  height: 20px;
+  background: #00b9ae;
+  border: 1px solid #707070;
+}
+
+/* centering text kelompok */
+.title-kelompok {
+  color: #FFFF;
+  font-family: "Bungee";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 0.8px 0 #000, -0.8px 0 #000, 0 0.8px #000, 0 -0.8px #000,
+    0.8px 0.8px #000, -0.8px -0.8px #000, 0.8px -0.8px #000, -0.8px 0.8px #000;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.title-kelompok-0 {
+  color: #000;
+  font-family: "Bungee";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 0.8px 0 #000, -0.8px 0 #000, 0 0.8px #000, 0 -0.8px #000,
+    0.8px 0.8px #000, -0.8px -0.8px #000, 0.8px -0.8px #000, -0.8px 0.8px #000;
+  text-decoration: none;
+}
+
+.title-kelompok:hover {
+  color: #FFFF;
+  text-decoration: none;
+  transform: translate(-102.5px, -13px);
+}
+
+.title-kelompok-0:hover {
+  color: #FFFF;
+  text-decoration: none;
+}
