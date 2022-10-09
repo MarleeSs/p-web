@@ -1,5 +1,6 @@
 body {
   background-color: #EEEEEE !important;
+  font-family: "Segoe UI";
 }
 
 /* All font segoe ui */
@@ -19,6 +20,8 @@ body {
 * {
   /* border: 1px solid #000; */
 }
+
+
 
 .container-fluid {
   margin-top: 6px;
@@ -100,4 +103,108 @@ body {
 .title-kelompok-0:hover {
   color: #FFFF;
   text-decoration: none;
+}
+
+img {
+  width: 6rem;
+  border-radius: 2rem;
+}
+
+span {
+  color: #707070;
+  font-size: 12px;
+}
+
+.i-header {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.t2-nama {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.t2-nim {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+
+  margin-left: 23px;
+}
+
+.t2-kls {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.info {
+  font-size: 0.8rem;
+}
+
+.card-text {
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 9px
+}
+
+.banner-anggota {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btn-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.cn-hover {
+  background: #f8f9fa;
+  transition: 0.3s;
+
+}
+
+.cn-hover::after,
+.cn-hover::before {
+  content: "";
+  position: absolute;
+  opacity: 0.8;
+  background: #ff9914;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+
+}
+
+.cn-hover:hover {
+  transform: translate(-12px, -12px);
+
+}
+
+.cn-hover:hover::after {
+  transform: translate(6px, 6px);
+}
+
+.cn-hover:hover::before {
+  transform: translate(12px, 12px);
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 0 0;
+  transition: 0.3s;
 }
