@@ -94,14 +94,64 @@ body {
   text-decoration: none;
 }
 
+@media screen and (max-width: 400px) {
+
+  .title-kelompok {
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title-kelompok-0 {
+    font-size: 10px;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title-kelompok:hover {
+    transform: translate(-52%, -47%);
+  }
+
+  .circle-1 {
+    width: 10px;
+    height: 10px;
+    background: #db222a;
+    border: 1px solid #707070;
+  }
+
+  .circle-2 {
+    width: 10px;
+    height: 10px;
+    background: #ffc300;
+    border: 1px solid #707070;
+  }
+
+  .circle-3 {
+    width: 10px;
+    height: 10px;
+    background: #00b9ae;
+    border: 1px solid #707070;
+  }
+
+  .bg-nav {
+    background-color: #ff9914;
+    height: 35px;
+  }
+
+
+}
+
+
 .title-kelompok:hover {
   color: #FFFF;
   text-decoration: none;
-  transform: translate(-102.5px, -13px);
+  /* transform: translate(-102.5px, -13px); */
 }
 
 .title-kelompok-0:hover {
-  color: #FFFF;
+  color: #000;
   text-decoration: none;
 }
 
