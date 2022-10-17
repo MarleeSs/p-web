@@ -24,7 +24,7 @@ class Header
               <nav class="py-2 bg-light border-bottom">
                 <div class="container d-inline-flex flex-wrap">
                   <ul class="nav me-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link link-dark px-2 active"
+                    <li class="nav-item"><a href="index.php" class="nav-link link-dark px-2  active"
                         aria-current="page">Home</a>
                     </li>
                   </ul>
